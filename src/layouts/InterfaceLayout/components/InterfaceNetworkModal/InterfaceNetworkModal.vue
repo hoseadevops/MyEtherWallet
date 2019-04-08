@@ -34,7 +34,7 @@
           <div class="network-title">
             <div class="network-icon">
               <crypto-icons :crypto="key" />
-              <img :src="Networks[key][0].type.icon" />
+              <img :src="Networks[key][0].type.icon" class="hidden" />
             </div>
             <h4 :class="key.toLowerCase()">{{ key }}</h4>
           </div>
